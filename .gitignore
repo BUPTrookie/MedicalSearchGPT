@@ -10,15 +10,10 @@ __pycache__/
 dist/
 build/
 
-# 医学数据文件
-*.csv
-*.xlsx
-*.json
-*.db
-*.sqlite
-*.parquet
+# Output model directories (training outputs, checkpoints, merged models)
+outputs-*/
 
-# 模型文件
+# Model weight files
 *.pkl
 *.h5
 *.pb
@@ -27,12 +22,12 @@ build/
 *.bin
 *.safetensors
 
-# 向量数据库
+# Vector databases
 chroma/
 faiss_index/
 *.index
 
-# 日志和缓存
+# Logs and cache
 logs/
 *.log
 cache/
@@ -44,16 +39,15 @@ cache/
 *.swp
 *.swo
 
-# 大文件（>100MB）
+# Compressed archives
 *.zip
 *.tar.gz
 *.7z
 *.rar
 *.bz2
 
-# 临时文件
+# Temp files
 temp/
 tmp/
 data/raw/
 !data/raw/.gitkeep
-EOF
