@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: verl
+Version: 0.1
+Summary: veRL: Volcano Engine Reinforcement Learning for LLM
+Home-page: https://github.com/volcengine/verl
+Author: Bytedance - Seed - MLSys
+Author-email: Bytedance - Seed - MLSys <zhangchi.usc1992@bytedance.com>, Bytedance - Seed - MLSys <gmsheng@connect.hku.hk>
+Project-URL: Homepage, https://github.com/volcengine/verl
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: accelerate
+Requires-Dist: codetiming
+Requires-Dist: datasets
+Requires-Dist: dill
+Requires-Dist: hydra-core
+Requires-Dist: numpy
+Requires-Dist: pybind11
+Requires-Dist: ray
+Requires-Dist: tensordict
+Requires-Dist: transformers<4.48
+Requires-Dist: vllm<=0.6.3
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: yapf; extra == "test"
+Dynamic: author
+Dynamic: home-page

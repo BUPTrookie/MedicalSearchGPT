@@ -1,0 +1,15 @@
+# Environment A: TRL-based training (PT, SFT, DPO, ORPO, GRPO, PPO)
+# transformers >= 5.1.0 required
+accelerate
+datasets>=2.14.6
+loguru
+peft>=0.14.0
+sentencepiece
+scikit-learn
+tensorboard
+tqdm>=4.47.0
+transformers>=5.1.0
+trl>=0.15.2
+# bitsandbytes  # not available on pypi, install manually
+latex2sympy2_extended
+math-verify==0.5.2
